@@ -1,8 +1,9 @@
-const constituency = [
+[
   {
-    state: "Abia",
-    senatorial_districts: ["Abia Central", "Abia North", "Abia South"],
-    lga: [
+    "state": "Abia",
+    "capital": "Umuahia",
+    "senatorial_districts": ["Abia Central", "Abia North", "Abia South"],
+    "lgas": [
       "Abia North",
       "Abia South",
       "Arochukwu",
@@ -19,13 +20,14 @@ const constituency = [
       "Umuahia South",
       "Ikwunano",
       "Ukwa West",
-      "Ukwa East",
-    ],
+      "Ukwa East"
+    ]
   },
   {
-    state: "Adamawa",
-    senatorial_districts: ["Adamawa Central", "Adamawa North", "Adamawa South"],
-    lga: [
+    "state": "Adamawa",
+    "capital": "Yola",
+    "senatorial_districts": ["Adamawa Central", "Adamawa North", "Adamawa South"],
+    "lgas": [
       "Demsa",
       "Numan",
       "Lamurde",
@@ -47,13 +49,14 @@ const constituency = [
       "Gire",
       "Maiha",
       "Muibi North",
-      "Muibi South",
-    ],
+      "Muibi South"
+    ]
   },
   {
-    state: "Akwa-ibom",
-    senatorial_districts: ["Akwa Ibom North East", "Akwa Ibom North West", "Akwa Ibom South"],
-    lga: [
+    "state": "Akwa-ibom",
+    "capital": "Uyo",
+    "senatorial_districts": ["Akwa Ibom North East", "Akwa Ibom North West", "Akwa Ibom South"],
+    "lgas": [
       "Etim Ekpo",
       "ika",
       "Abak",
@@ -84,13 +87,14 @@ const constituency = [
       "Uyo",
       "Uruan",
       "Nsit Atai",
-      "ihesikpo Asutan",
-    ],
+      "ihesikpo Asutan"
+    ]
   },
   {
-    state: "Anambra",
-    senatorial_districts: ["Anambra Central", "Anambra North", "Anambra South"],
-    lga: [
+    "state": "Anambra",
+    "capital": "Akwa",
+    "senatorial_districts": ["Anambra Central", "Anambra North", "Anambra South"],
+    "lgas": [
       "Anambra East",
       "Anambra West",
       "Onitsha North",
@@ -106,13 +110,14 @@ const constituency = [
       "Dunukofia",
       "Idemili North",
       "Idemili South",
-      "Ihiala",
-    ],
+      "Ihiala"
+    ]
   },
   {
-    state: "Bauchi",
-    senatorial_districts: ["Bauchi Central", "Bauchi North", "Bauchi South"],
-    lga: [
+    "state": "Bauchi",
+    "capital": "Bauchi",
+    "senatorial_districts": ["Bauchi Central", "Bauchi North", "Bauchi South"],
+    "lgas": [
       "Alkaleri",
       "Kirfi",
       "Katagum",
@@ -133,18 +138,20 @@ const constituency = [
       "Ningi",
       "Warji",
       "Toro",
-      "Zaki",
-    ],
+      "Zaki"
+    ]
   },
   {
-    state: "Bayelsa",
-    senatorial_districts: ["Bayelsa Central", "Bayelsa East", "Bayelsa West"],
-    lga: ["Brass", "Nembe", "Sagbama", "Ekerermor", "Ogbia", "Southern Ijaw", "Yenagoa", "K-Opokuma"],
+    "state": "Bayelsa",
+    "capital": "Yenagoa",
+    "senatorial_districts": ["Bayelsa Central", "Bayelsa East", "Bayelsa West"],
+    "lgas": ["Brass", "Nembe", "Sagbama", "Ekerermor", "Ogbia", "Southern Ijaw", "Yenagoa", "K-Opokuma"]
   },
   {
-    state: "Benue",
-    senatorial_districts: ["Benue North East", "Benue North West", "Benue South"],
-    lga: [
+    "state": "Benue",
+    "capital": "Makurdi",
+    "senatorial_districts": ["Benue North East", "Benue North West", "Benue South"],
+    "lgas": [
       "Ado",
       "Ogbadibo",
       "Okpokwu",
@@ -165,13 +172,14 @@ const constituency = [
       "Kwande",
       "Ushongo",
       "Ohimini",
-      "Otukpo",
-    ],
+      "Otukpo"
+    ]
   },
   {
-    state: "Borno",
-    senatorial_districts: ["Borno Central", "Borno North", "Borno South"],
-    lga: [
+    "state": "Borno",
+    "capital": "Maiduguri",
+    "senatorial_districts": ["Borno Central", "Borno North", "Borno South"],
+    "lgas": [
       "Askira-Uba",
       "Hawul",
       "Kalabalge",
@@ -198,13 +206,14 @@ const constituency = [
       "Maiduguri Metropolitan",
       "Monguno",
       "Matre",
-      "Nganzai",
-    ],
+      "Nganzai"
+    ]
   },
   {
-    state: "Cross River",
-    senatorial_districts: ["Cross River Central", "Cross River North", "Cross River South"],
-    lga: [
+    "state": "Cross River",
+    "capital": "Calabar",
+    "senatorial_districts": ["Cross River Central", "Cross River North", "Cross River South"],
+    "lgas": [
       "Akamkpa",
       "Biase",
       "Abi",
@@ -221,13 +230,14 @@ const constituency = [
       "Obubra",
       "Etung",
       "Ogoja",
-      "Yala",
-    ],
+      "Yala"
+    ]
   },
   {
-    state: "Delta",
-    senatorial_districts: ["Delta Central", "Delta North", "Delta South"],
-    lga: [
+    "state": "Delta",
+    "capital": "Asaba",
+    "senatorial_districts": ["Delta Central", "Delta North", "Delta South"],
+    "lgas": [
       "Aniocha",
       "Oshimili",
       "Bomadi",
@@ -250,13 +260,14 @@ const constituency = [
       "Udu",
       "Warri South",
       "Warri West",
-      "Warri North",
-    ],
+      "Warri North"
+    ]
   },
   {
-    state: "Ebonyi",
-    senatorial_districts: ["Ebonyi South", "Ebonyi Central", "Ebonyi North"],
-    lga: [
+    "state": "Ebonyi",
+    "capital": "Abakaliki",
+    "senatorial_districts": ["Ebonyi South", "Ebonyi Central", "Ebonyi North"],
+    "lgas": [
       "Abakaliki",
       "lzzi",
       "Ishielu",
@@ -269,13 +280,14 @@ const constituency = [
       "Ohaukwu",
       "Ebonyi",
       "Afikpo North",
-      "Afikpo South",
-    ],
+      "Afikpo South"
+    ]
   },
   {
-    state: "Edo",
-    senatorial_districts: ["Edo South", "Edo Central", "Edo North"],
-    lga: [
+    "state": "Edo",
+    "capital": "Benin-City",
+    "senatorial_districts": ["Edo South", "Edo Central", "Edo North"],
+    "lgas": [
       "Egor Ikpoba Okha",
       "Esan Central",
       "Igueben",
@@ -290,13 +302,14 @@ const constituency = [
       "Ovia South-West",
       "Ovia North East",
       "Owan East",
-      "Owan West",
-    ],
+      "Owan West"
+    ]
   },
   {
-    state: "Ekiti",
-    senatorial_districts: ["Ekiti South", "Ekiti Central", "Ekiti North"],
-    lga: [
+    "state": "Ekiti",
+    "capital": "Ado-Ekiti",
+    "senatorial_districts": ["Ekiti South", "Ekiti Central", "Ekiti North"],
+    "lgas": [
       "Ado Ekiti",
       "lrepodun",
       "Ifelodun",
@@ -314,13 +327,14 @@ const constituency = [
       "Ekiti West",
       "Efon",
       "Ikole",
-      "Oye North",
-    ],
+      "Oye North"
+    ]
   },
   {
-    state: "Enugu",
-    senatorial_districts: ["Enugu North", "Enugu East", "Enugu West"],
-    lga: [
+    "state": "Enugu",
+    "capital": "Enugu",
+    "senatorial_districts": ["Enugu North", "Enugu East", "Enugu West"],
+    "lgas": [
       "Enugu East",
       "Esi Uzo",
       "Enugu North",
@@ -335,18 +349,20 @@ const constituency = [
       "Igbo Etiti",
       "Uzo Uwani",
       "Aminri Agwu",
-      "Oji Uzo",
-    ],
+      "Oji Uzo"
+    ]
   },
   {
-    state: "Gombe",
-    senatorial_districts: ["Gombe Central", "Gombe North", "Gombe South"],
-    lga: ["Akko", "Balanga Billiri", "Dukku Natada", "Kwami Funakaye Gombe", "Kakungo Shongom", "Yamaltu Deba"],
+    "state": "Gombe",
+    "capital": "Gombe",
+    "senatorial_districts": ["Gombe Central", "Gombe North", "Gombe South"],
+    "lgas": ["Akko", "Balanga Billiri", "Dukku Natada", "Kwami Funakaye Gombe", "Kakungo Shongom", "Yamaltu Deba"]
   },
   {
-    state: "Imo",
-    senatorial_districts: ["Imo East", "Imo North", "Imo West"],
-    lga: [
+    "state": "Imo",
+    "capital": "Owerri",
+    "senatorial_districts": ["Imo East", "Imo North", "Imo West"],
+    "lgas": [
       "Aboh Mbaise",
       "Ngor Okpala",
       "Ahiazu Mbaise",
@@ -359,13 +375,14 @@ const constituency = [
       "Owerri Municipal North West",
       "Ohaji Egbema Oguta",
       "Oru West",
-      "Ehime Mbano Ihitte Uhoma Obowo",
-    ],
+      "Ehime Mbano Ihitte Uhoma Obowo"
+    ]
   },
   {
-    state: "Jigawa",
-    senatorial_districts: ["Jigawa North - West", "Jigawa North – East", "Jigawa South – West"],
-    lga: [
+    "state": "Jigawa",
+    "capital": "Dutse",
+    "senatorial_districts": ["Jigawa North - West", "Jigawa North – East", "Jigawa South – West"],
+    "lgas": [
       "Babura Garki",
       "Birnin Kadu Buji",
       "Birniwa Guri",
@@ -389,13 +406,14 @@ const constituency = [
       "Ringim",
       "Taura",
       "Dutse",
-      "Kiyawa",
-    ],
+      "Kiyawa"
+    ]
   },
   {
-    state: "Kaduna",
-    senatorial_districts: ["Kaduna Central", "Kaduna North", "Kaduna South"],
-    lga: [
+    "state": "Kaduna",
+    "capital": "Kaduna",
+    "senatorial_districts": ["Kaduna Central", "Kaduna North", "Kaduna South"],
+    "lgas": [
       "Kaduna North",
       "Zaria",
       "Soba",
@@ -417,13 +435,14 @@ const constituency = [
       "Kaura",
       "Kauru",
       "Jaba",
-      "Zangon Kafat",
-    ],
+      "Zangon Kafat"
+    ]
   },
   {
-    state: "Kano",
-    senatorial_districts: ["Kano South", "Kano Central", "Kano North"],
-    lga: [
+    "state": "Kano",
+    "capital": "Kano",
+    "senatorial_districts": ["Kano South", "Kano Central", "Kano North"],
+    "lgas": [
       "Tsanyawa Kunchi",
       "Wudil Garko",
       "Minjibir Ungogo",
@@ -451,13 +470,14 @@ const constituency = [
       "Bagawai",
       "Albasu",
       "Gaya/",
-      "Ajingi",
-    ],
+      "Ajingi"
+    ]
   },
   {
-    state: "Katsina",
-    senatorial_districts: ["Katsina Central", "Katsina North", "Katsina South"],
-    lga: [
+    "state": "Katsina",
+    "capital": "Katsina",
+    "senatorial_districts": ["Katsina Central", "Katsina North", "Katsina South"],
+    "lgas": [
       "Bakori Danja",
       "Batagarawa",
       "Charanchi Rimi",
@@ -486,13 +506,14 @@ const constituency = [
       "Matazu",
       "Musawa",
       "Bature",
-      "Zango",
-    ],
+      "Zango"
+    ]
   },
   {
-    state: "Kebbi",
-    senatorial_districts: ["Kebbi Central", "Kebbi North", "Kebbi South"],
-    lga: [
+    "state": "Kebbi",
+    "capital": "Birnin-Kebbi",
+    "senatorial_districts": ["Kebbi Central", "Kebbi North", "Kebbi South"],
+    "lgas": [
       "Arewa",
       "Dandi",
       "Arugungu",
@@ -512,13 +533,14 @@ const constituency = [
       "Maiyama",
       "Yauri",
       "Shanga",
-      "Ngaski",
-    ],
+      "Ngaski"
+    ]
   },
   {
-    state: "Kogi",
-    senatorial_districts: ["Kogi Central", "Kogi East", "Kogi West"],
-    lga: [
+    "state": "Kogi",
+    "capital": "Lokoja",
+    "senatorial_districts": ["Kogi Central", "Kogi East", "Kogi West"],
+    "lgas": [
       "Adavi",
       "Okehi",
       "Ajaokuta",
@@ -539,13 +561,14 @@ const constituency = [
       "Ogori-Magogo",
       "Yagba East",
       "Yagba West",
-      "Mopamuro",
-    ],
+      "Mopamuro"
+    ]
   },
   {
-    state: "Kwara",
-    senatorial_districts: ["Kwara Central", "Kwara North", "Kwara South"],
-    lga: [
+    "state": "Kwara",
+    "capital": "Ilorin",
+    "senatorial_districts": ["Kwara Central", "Kwara North", "Kwara South"],
+    "lgas": [
       "Baruten Kaima",
       "Edu",
       "Moro",
@@ -560,13 +583,14 @@ const constituency = [
       "Ilorin East",
       "Ilorin South",
       "Illorin West",
-      "Asa",
-    ],
+      "Asa"
+    ]
   },
   {
-    state: "Lagos",
-    senatorial_districts: ["Lagos West", "Lagos Central", "Lagos East"],
-    lga: [
+    "state": "Lagos",
+    "capital": "Ikeja",
+    "senatorial_districts": ["Lagos West", "Lagos Central", "Lagos East"],
+    "lgas": [
       "Surulere I",
       "Surulere II",
       "Somola",
@@ -590,13 +614,14 @@ const constituency = [
       "Apapa",
       "Amuwo Odofin",
       "Ajeromi Ifelodun",
-      "Agege",
-    ],
+      "Agege"
+    ]
   },
   {
-    state: "Niger",
-    senatorial_districts: ["Niger East", "Niger North", "Niger South"],
-    lga: [
+    "state": "Niger",
+    "capital": "Minna",
+    "senatorial_districts": ["Niger East", "Niger North", "Niger South"],
+    "lgas": [
       "Katcha Gbako Bida",
       "Bosso Paiko",
       "Chanchaga",
@@ -617,13 +642,14 @@ const constituency = [
       "Agaie",
       "Lapai",
       "Borgu",
-      "Agwara",
-    ],
+      "Agwara"
+    ]
   },
   {
-    state: "Ogun",
-    senatorial_districts: ["Ogun Central", "Ogun East", "Ogun West"],
-    lga: [
+    "state": "Ogun",
+    "capital": "Abeokuta",
+    "senatorial_districts": ["Ogun Central", "Ogun East", "Ogun West"],
+    "lgas": [
       "Abeokuta South",
       "Ado-Oda",
       "Ota",
@@ -644,13 +670,14 @@ const constituency = [
       "Odogbolu",
       "Ikenne",
       "Shagamu",
-      "Remo North",
-    ],
+      "Remo North"
+    ]
   },
   {
-    state: "Ondo",
-    senatorial_districts: ["Ondo Central", "Ondo North", "Ondo South"],
-    lga: [
+    "state": "Ondo",
+    "capital": "Akure",
+    "senatorial_districts": ["Ondo Central", "Ondo North", "Ondo South"],
+    "lgas": [
       "Akoko North East",
       "Akoko North West",
       "Akure South",
@@ -666,13 +693,14 @@ const constituency = [
       "Ondo East",
       "Owo",
       "Ose",
-      "Ondo West",
-    ],
+      "Ondo West"
+    ]
   },
   {
-    state: "Osun",
-    senatorial_districts: ["Osun Central", "Osun East", "Osun West"],
-    lga: [
+    "state": "Osun",
+    "capital": "Oshogbo",
+    "senatorial_districts": ["Osun Central", "Osun East", "Osun West"],
+    "lgas": [
       "Irepodun",
       "Olorunda",
       "Oshogbo",
@@ -700,13 +728,14 @@ const constituency = [
       "Ede North",
       "Ede South",
       "Egbedore",
-      "Ejigbo",
-    ],
+      "Ejigbo"
+    ]
   },
   {
-    state: "Oyo",
-    senatorial_districts: ["Oyo Central", "Oyo North", "Oyo South"],
-    lga: [
+    "state": "Oyo",
+    "capital": "Ibadan",
+    "senatorial_districts": ["Oyo Central", "Oyo North", "Oyo South"],
+    "lgas": [
       "Afijio",
       "Atiaba East",
       "Oyo West",
@@ -737,13 +766,14 @@ const constituency = [
       "Ibadan North-East",
       "Ibadan South-East",
       "Ibadan South West",
-      "Ibadan North",
-    ],
+      "Ibadan North"
+    ]
   },
   {
-    state: "Plateau",
-    senatorial_districts: ["Plateau Central", "Plateau North", "Plateau South"],
-    lga: [
+    "state": "Plateau",
+    "capital": "Jos",
+    "senatorial_districts": ["Plateau Central", "Plateau North", "Plateau South"],
+    "lgas": [
       "Barikinladi",
       "Riyom",
       "Mangu",
@@ -760,13 +790,14 @@ const constituency = [
       "Shendarn",
       "Mikang",
       "Qua'anPan",
-      "Wase",
-    ],
+      "Wase"
+    ]
   },
   {
-    state: "Rivers",
-    senatorial_districts: ["Rivers East", "Rivers South East", "Rivers West"],
-    lga: [
+    "state": "Rivers",
+    "capital": "Port-Harcourt",
+    "senatorial_districts": ["Rivers East", "Rivers South East", "Rivers West"],
+    "lgas": [
       "Ahoda East",
       "Abua",
       "Odual",
@@ -789,13 +820,14 @@ const constituency = [
       "Ogu",
       "Bolo",
       "Port Harcourt I",
-      "Port Harcout II",
-    ],
+      "Port Harcout II"
+    ]
   },
   {
-    state: "Sokoto",
-    senatorial_districts: ["Sokoto East", "Sokoto North", "Sokoto South"],
-    lga: [
+    "state": "Sokoto",
+    "capital": "Sokoto",
+    "senatorial_districts": ["Sokoto East", "Sokoto North", "Sokoto South"],
+    "lgas": [
       "Isa",
       "S.Birni",
       "Goronyo",
@@ -818,13 +850,14 @@ const constituency = [
       "Yabo",
       "Shagari",
       "Kebbe",
-      "Tambuwal",
-    ],
+      "Tambuwal"
+    ]
   },
   {
-    state: "Taraba",
-    senatorial_districts: ["Taraba Central", "Taraba North", "Taraba South"],
-    lga: [
+    "state": "Taraba",
+    "capital": "Jalingo",
+    "senatorial_districts": ["Taraba Central", "Taraba North", "Taraba South"],
+    "lgas": [
       "Bali",
       "Gassol",
       "Donga",
@@ -840,13 +873,14 @@ const constituency = [
       "Ardo-Kola",
       "Jalingo",
       "Zing",
-      "Yorro",
-    ],
+      "Yorro"
+    ]
   },
   {
-    state: "Yobe",
-    senatorial_districts: ["Yobe East", "Yobe North", "Yobe South"],
-    lga: [
+    "state": "Yobe",
+    "capital": "Damaturu",
+    "senatorial_districts": ["Yobe East", "Yobe North", "Yobe South"],
+    "lgas": [
       "Bade",
       "Jakusko",
       "Bursari",
@@ -863,13 +897,14 @@ const constituency = [
       "Machina",
       "Nguru",
       "Potiskum",
-      "Nangore",
-    ],
+      "Nangore"
+    ]
   },
   {
-    state: "Zamfara",
-    senatorial_districts: ["Zamfara Central", "Zamfara North", "Zamfara West"],
-    lga: [
+    "state": "Zamfara",
+    "capital": "Gusau",
+    "senatorial_districts": ["Zamfara Central", "Zamfara North", "Zamfara West"],
+    "lgas": [
       "Kaura-Namoda",
       "Birnin-Magaji",
       "Shinkafi",
@@ -883,12 +918,13 @@ const constituency = [
       "Bakura",
       "Maradun",
       "Bukkuyum",
-      "Gummi",
-    ],
+      "Gummi"
+    ]
   },
   {
-    state: "FCT",
-    senatorial_districts: ["Federal Capital Territory"],
-    lga: ["Abaji", "Abuja Municipal", "Gwagwalada", "Kuje", "Bwari", "Kwali"],
-  },
-];
+    "state": "FCT",
+    "capital": "Abuja",
+    "senatorial_districts": ["Federal Capital Territory"],
+    "lgas": ["Abaji", "Abuja Municipal", "Gwagwalada", "Kuje", "Bwari", "Kwali"]
+  }
+]
