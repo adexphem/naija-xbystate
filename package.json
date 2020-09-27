@@ -1,0 +1,20 @@
+{
+  "name": "naija-xbystate",
+  "version": "0.1.0",
+  "description": "This package will not just list local government area by state but can also give senatorial districts, capitals e.t.c",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "naija",
+    "lcda",
+    "lga",
+    "nigeria",
+    "local",
+    "government",
+    "lagos"
+  ],
+  "author": "Oluwafemi Adeosun",
+  "license": "MIT"
+}
