@@ -15,4 +15,9 @@ $ npm install naija-xbystate
 ```js
 const naijaXbyState = require("naija-xbystate");
 
+console.log(naijaXbyState.all());
+console.log(naijaXbyState.states());
+console.log(naijaXbyState.capital("lagos"));
+console.log(naijaXbyState.lgas("oyo"))
+
 ```
