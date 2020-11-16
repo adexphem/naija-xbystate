@@ -21,6 +21,12 @@ module.exports = {
     const response = searchItem(_state);
     return response.senatorial_districts;
   },
+  states: () => {
+    let stateList = [];
+    data.map(({state}) => stateList.push(state));
+    
+    return stateList;
+  },
   capital: (state) => {
     let _state = convertToLowerCase(state);
 
