@@ -47,4 +47,16 @@ module.exports = {
     const response = searchItem(_state);
     return response.lgas;
   },
+  senatorial_lcdas: (state, senatorialDistrict) => {
+    let _state = convertToLowerCase(state);
+    let _senatorialDistrict = convertToLowerCase(senatorialDistrict);
+
+    if (!state || !senatorialDistrict) {
+      throw new Error('You must enter a state and senatorial district.');
+    }
+
+    const response = searchItem(_state);
+
+    return response.senatorial_lcdas && response.senatorial_lcdas[_senatorialDistrict] || ['No LCDAs yet'];
+  },
 };
