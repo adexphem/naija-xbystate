@@ -1,6 +1,6 @@
 {
   "name": "naija-xbystate",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "This package will not just list local government area by state but can also give senatorial districts, capitals e.t.c",
   "main": "index.js",
   "scripts": {
